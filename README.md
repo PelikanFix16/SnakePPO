@@ -5,20 +5,23 @@ This repository contains an implementation of **Proximal Policy Optimization (PP
 
 ## 📁 Project Structure
 ```
-📦 snake-ppo
- ┣ 📜 main.py        # Training script using PPO
- ┣ 📜 test.py        # Testing script for evaluating the trained model
- ┣ 📜 requirements.txt # Dependency list
- ┗ 📜 README.md      # Project documentation
+📦 SnakePPO-v2
+ ┣ 📜 main.py          # Main training script using PPO
+ ┣ 📜 train.py         # Training loop and model saving
+ ┣ 📜 test.py          # Testing script for evaluating the trained model
+ ┣ 📜 memory.py        # Replay memory implementation
+ ┣ 📜 network.py       # Neural network architecture
+ ┣ 📜 ppo_snake_model.pth # Trained model weights
+ ┣ 📜 README.md        # Project documentation
 ```
 
 ## 🚀 Installation
 To run this project, first install the required dependencies:
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.2.4
-pip3 install gym-snake-game
-pip3 install gym
-pip3 install gymnasium
+pip install gym-snake-game
+pip install gym
+pip install gymnasium
 ```
 
 ## 🎮 Running the Project

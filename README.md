@@ -53,7 +53,7 @@ Proximal Policy Optimization (PPO) is a policy gradient method that improves tra
 - [ ] Experiment with different hyperparameters for optimization
 
 ## 👨‍💻 Author
-Developed by **Maurycy Zamojski**. Feel free to reach out or contribute to this project!
+Developed by **PelikanFix16**. Feel free to reach out or contribute to this project!
 
 ## ⭐ Contributions
 Pull requests and suggestions are welcome! If you find this project useful, give it a **star** ⭐ on GitHub!
